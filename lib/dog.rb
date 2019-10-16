@@ -9,5 +9,12 @@ attr_reader :name
     
   end
 
+  def all
+    @@all
+  end
+  
+  def clear_all
+    @@all=[]
+  end
 
 end
