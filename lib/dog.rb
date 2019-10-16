@@ -9,11 +9,11 @@ attr_reader :name
     
   end
 
-  def all
+  def self.all
     @@all
   end
   
-  def clear_all
+  def self.clear_all
     @@all=[]
   end
 
